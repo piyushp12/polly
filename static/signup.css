@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.4822303921568627) 0%, rgba(9,9,121,0.6811099439775911) 35%, rgba(0,212,255,1) 100%);
+    font-size: 18px;
+    font-display: white;
+    }
+    .R{
+        background-image: url('crop1.jpeg');
+        height: 1500px;
+        background-size: cover;
+
+    }
+  .form {
+    border: 2px solid rgb(119, 224, 230);
+    width:400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 0%;
+    border-radius: 10px;
+  }
+  .div {
+    border-radius:20px;
+    color:rgb(243, 234, 234);
+    padding:50px;
+    margin:2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    }
+    .htt{
+      width: 300px;
+      padding: 12px 12px;
+      margin: 15px 4px;
+      box-sizing: border-box;
+      border: 2px groove navy;
+    }
+
+  .h3 {
+    border: 2px solid black;
+    color: rgb(149, 86, 113);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+  
+    
+  }
+  /* .container { */
+    /* background: rgb(129, 216, 193);
+    background: linear-gradient(0deg, rgb(108, 204, 180) 0%, rgb(128, 221, 218) 4%, rgb(124, 203, 211) 100%);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    height: 1000px; */
+  /* } */
+  .header {
+            border-radius: 20px;
+            border: 2px solid black;  
+            background-color:rgb(56, 107, 178); 
+            border-width: 5px;
+            border:auto; 
+            width: 445px;
+            align-self:center;
+  }
+  /* input {
+    width : 92%;
+    padding: 10px 10px;
+    margin: 10px 2px;
+    box-sizing: border-box;
+    border: 1px navy;
+   } */
+   .M{
+    width : 20%;
+    padding: 10px 10px;
+    margin: 10px 2px;
+    box-sizing: border-box;
+    border: 1px navy;   
+   }
+    #para{
+      font-size: 2px solid rgb(119, 224, 230);
+
+  }
+  .P{
+    color: red;
+  }
+  .fn{
+    height: 30px;
+  }
+  button{
+    width:150px;
+    font-size:20px;
+    cursor:pointer;
+    height:50px;
+    background-color: rgb(119, 224, 230);
+    color:rgb(102, 54, 54);
+  }
+  button:hover{
+    background-color: rgb(102, 54, 54);
+    color: rgb(119, 224, 230);
+  }
+  button:active{
+    background-color:  rgb(34, 182, 86);
+    color:#111;
+  }
+   input[type="checkbox"]:checked {
+    background: url('images/check.svg') no-repeat center / 75% auto;
+    }
+
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+    }
+    

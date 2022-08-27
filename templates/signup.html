@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <!-- <link rel="stylesheet"href="sign.css"> -->
+  <title> Signup</title>
+  <style>
+    body {
+      background-image: url("https://expertphotography.b-cdn.net/wp-content/uploads/2018/07/nature-photography-green-tree-plant-leaves.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      opacity: 100%;
+      border: 2px;
+    }
+
+    #sign {
+      font-size: xxx-large;
+      color: blueviolet;
+
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <center>
+    <form  method="get " action="" <div class="container">
+      <h1 id="sign">
+        <center>Ragistration Form</center>
+      </h1>
+      {% csrf_token %}
+      <label id="user">Name</label>
+      <input type="text" Placeholder="Plz enter FullName" name="name" id="name"><br><br>
+      <label id="user">Phone Number</label>
+      <input type="number" Placeholder="Enter Mobile Number" id="phone_number" name="phone_number" max length="10">
+      <br><br>
+      <label id="user">Address</label>
+      <input type="text" Placeholder="Enter State" name="address" id="address"><br><br>
+      <label id="user">State</label>
+      <input type="text" Placeholder="Enter State" name="state" id="State"><br><br>
+      <label id="user">District</label>
+      <input type="text" Placeholder="Enter District" name="district" id="district"><br><br>
+      <label id="user">Village</label>
+      <input type="text" Placeholder="Enter Village" name="village" id="village"><br><br>
+      <label id="user">Password</label>
+      <input type="text" Placeholder="Plz Enter Password" name="password" id="password"> <br><br>
+      <label id="user">Conform Password</label>
+      <input type="text" Placeholder="Plz Enter Conform Password" name="confirm_password" id="c_pass"><br><br>
+      <button type="submit">Submit</button>
+      </div>
+  </center>
+  </form>
